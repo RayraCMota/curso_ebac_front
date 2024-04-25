@@ -1,0 +1,73 @@
+body{
+    background-image: url(imagem/dedos-note-relatorio-jornalista-enchimento.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.container{
+
+    background-color: rgb(7, 1, 1, 0.7);
+    color: #fff;
+    border: 3px solid black;
+    display: grid;
+    justify-content: center;
+    font-family: 'Lora', sans-serif;
+    height: 450px;
+    width: 550px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-right: 350px;
+    margin-left: 350px;
+
+}
+
+form{
+    border-style: none;
+    width: 386px;
+}
+
+.formulario{
+    display: flex;
+    align-content: space-between;
+}
+
+.dados-pessoais{
+    padding-right: 15px;
+
+}
+
+
+
+input {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 93%;
+    resize: none;
+}
+
+button{
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lora', sans-serif;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button:hover {
+    background-color: rgb(103, 101, 101);
+}
