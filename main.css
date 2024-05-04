@@ -16,7 +16,7 @@ h1{
 
 .conteudo{
     width: 700px;
-    height: 250px;
+    height: 300px;
     margin-top: 150px;
     margin-left: 270px;
     font-size: 16px;
@@ -36,6 +36,10 @@ h1{
 
 .formulario input{
     padding-right: 5px;
+}
+
+small{
+    padding-left: 60px;
 }
 
 button{
